@@ -49,6 +49,7 @@ div.section2{
     width: 155px;
     height: 30px;
     margin: 5px;
+    border-radius: 5px 0 5px 0;
     
   }
 
