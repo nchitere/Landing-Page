@@ -1,4 +1,9 @@
 body{
+ font-style: normal;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ padding: 20px, 10px;
+ margin-left:auto;
+ margin-right:auto;
 
 }
 
@@ -7,7 +12,7 @@ body{
   background: #1F2937;
   display: flex;
   justify-items: space-around;
-  width:auto;
+  width:1500px;
   
 }
 p.logo{
@@ -21,7 +26,7 @@ p.logo{
 
 nav a {
   margin-left: 10px;
-  float:right
+  float:right;
 }
 
 
@@ -44,13 +49,15 @@ nav{
 
 
 
-
-
 .placeholder{
-  width: 120px;
+  width: 400px;
   height: 120px;
+  margin-top: 150px;
 }
-
+.hero1{
+  display:flex;
+  flex-direction: row;
+}
 
 .content.hero{
   font-size: 48px;
@@ -58,17 +65,19 @@ nav{
   color: #F9FAF8;
 }
 
+
+
 .content.secondary {
   font-size: 18px;
   color: #F9FAF8;
 }
 
 .section1 {
-  width: 400px;
   margin-left:auto;
   margin-right:auto;
   display:flex;
   flex-direction: column;
+  width: 1200px;
 }
 
 .section2 {
@@ -76,6 +85,7 @@ nav{
   align-items: center;
   display:flex;
   flex-direction:column;
+  width:1500px;
 }
 
 .text-box {
@@ -92,6 +102,7 @@ nav{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width:1500px;
 }
 
 footer.container{
@@ -101,4 +112,5 @@ footer.container{
   flex-direction: column;
   height: 200px;
   align-items: center;
+  width: 1500px;
 }
