@@ -1,4 +1,4 @@
-apturl==0.5.2
+apturl
 blinker==1.4
 catfish==4.16.3
 cffi==1.15.0
