@@ -1,111 +1,60 @@
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    
+.container {
+  background: #1F2937;
+  display: flex;
+  justify-items: space-between;
+  flex-direction:row;
+}
+p.logo{
+  font-size: 24px;
+  color: #F9FAF8;
+}
+nav{
+  color:#F9FAF8;
+  font-size: 14px;
 }
 
-.section1, .section2, .section3, .section4{
-    display: flex;
-    flex:1;
-    max-width: 100%;
-    
+.placeholder{
+  width: 120px;
+  height: 120px;
 }
 
-div.section1{
-    background-color: #1F2937;
-    color: white;
-    display:flex;
-    flex-direction: row;
-    
 
+.content.hero{
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #F9FAF8;
 }
 
-div.section2{
-    background-color: #3882F6;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    margin: None;
-    
+.content.secondary {
+  font-size: 18px;
+  color: #F9FAF8;
+}
+
+.section1 {
+  width: 400px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.section2 {
+  background: white;
+  align-items: center;
+  display:flex;
+  flex-direction:column;
+}
+
+.text-box {
+  border: 1px solid blue;
+  border-radius: 5px;
+  width: 100px;
+  height: 100px;
  
 }
 
-
-  .section2 .strong {
-    text-align: center;
-  }
-  .text-box-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
-
-  .section2 .text-box {
-    width: 155px;
-    height: 30px;
-    margin: 5px;
-    border-radius: 5px 0 5px 0;
-    
-  }
-
-
-
-
-div.section3{
-    background-color: #e5e7eb;
-    color: black;
-   
-   
-
+.section3{
+  background: #E5E7Eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-
-div.section4{
-    background-image: #3882F6;
-    
-}
-
-img.logo {
-    max-width: 100%;
-    height: 50px;
-    object-fit: cover;
-  }
-
-img.placeholder{
-    max-width: 100%;
-    height: 150px;
-    object-fit: cover;
-    margin-top: 50px;
-    align-items: centre;
-}
-
-section3.quote{
-    width: 180px;
-    height: 50px;
-    margin: 5px;
-}
-
-.action{
-    background-color: #3882F6;
-}
-
-/* .logo {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-  
-  .logo img {
-    width: 100px;
-    height: 100px;
-  }
-  
-  .logo h2 {
-    margin: 0;
-    padding: 0;
-    font-size: 20px;
-  } */
